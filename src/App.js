@@ -1,9 +1,8 @@
-import {render} from "react-dom"
+import { render } from "react-dom";
+import HelloWorld from "./components/HelloWorld";
 
 const App = () => {
-  return (
-    <h1>Hello World!</h1>
-  )
-}
+  return <HelloWorld helloWorld="Hello World LightWeight App" />;
+};
 
-render(<App />, document.getElementById("root"))
+render(<App />, document.getElementById("root"));

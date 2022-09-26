@@ -4,7 +4,7 @@
   "description": "A free, fun, lightweight React template bundled with Parcel for easy setup and fast development. Feel free to use it for the pet projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   },
   "browserslist": [
     "> .25% or last 2 versions"
-  ]
+  ],
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
 }

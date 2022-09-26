@@ -1,0 +1,27 @@
+{
+  "name": "lw-react-template",
+  "version": "1.0.0",
+  "description": "A free, fun, lightweight React template bundled with Parcel for easy setup and fast development. Feel free to use it for the pet projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateocodes/lw-react-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateocodes/lw-react-template/issues"
+  },
+  "homepage": "https://github.com/mateocodes/lw-react-template#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": [
+    "> .25% or last 2 versions"
+  ]
+}
